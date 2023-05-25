@@ -65,7 +65,7 @@ main .listagem-marvel {
 }
 
 main .cartao-marvel {
-    background-color: white;
+    background-color: #bebebe;
     width: 200px;
     padding: 15px;
     display: flex;
@@ -132,7 +132,7 @@ main .descricao {
 }
 
 *::-webkit-scrollbar-track {
-    background: #ffffff;
+    background: white;
 }
 
 *::-webkit-scrollbar-thumb {
