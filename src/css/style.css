@@ -77,7 +77,7 @@ main .cartao-marvel {
 }
 
 .cartao-marvel:hover {
-    background-color: #96d9d6;
+    background-color: #937cef;
 }
 
 .modo-escuro .cartao-marvel:hover {
@@ -85,7 +85,7 @@ main .cartao-marvel {
 }
 
 .modo-escuro .cartao-marvel {
-    background-color: #4435b2;
+    background-image: linear-gradient(to right, #23116F, #A25560, #100F48);
 }
 
 main .cartao-marvel.informacoes {
