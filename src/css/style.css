@@ -16,7 +16,7 @@ body {
     font-family: 'Poppins', sans-serif;
     max-width: 1280px;
     margin: 0 auto;
-    background-color: #5e5b5bad;
+    background-color: #7664d7;
     color: #333333;
 }
 
@@ -65,7 +65,7 @@ main .listagem-marvel {
 }
 
 main .cartao-marvel {
-    background-color: #d8e3ec;
+    background-color: white;
     width: 200px;
     padding: 15px;
     display: flex;
@@ -125,4 +125,18 @@ main .descricao {
     overflow-y: scroll;
     font-size: 14px;
     padding-right: 10px;
+}
+
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #ec1d24;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
 }
