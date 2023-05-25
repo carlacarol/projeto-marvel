@@ -16,13 +16,13 @@ body {
     font-family: 'Poppins', sans-serif;
     max-width: 1280px;
     margin: 0 auto;
-    background-color: #7664d7;
-    color: #333333;
+    background-color: #ededef;
+    color: white;
 }
 
 body.modo-escuro {
-    background-color: #212121;
-    color: #f5f5f5;
+    background-color: #151515;
+    color: white;
 }
 
 header {
@@ -65,7 +65,7 @@ main .listagem-marvel {
 }
 
 main .cartao-marvel {
-    background-color: #bebebe;
+    background-color: #2820c0;
     width: 200px;
     padding: 15px;
     display: flex;
@@ -76,12 +76,16 @@ main .cartao-marvel {
     transition: 0.2s ease-in-out;
 }
 
-main .cartao-marvel:hover {
+.cartao-marvel:hover {
     background-color: #96d9d6;
 }
 
+.modo-escuro .cartao-marvel:hover {
+    background-color: #937cef;
+}
+
 .modo-escuro .cartao-marvel {
-    background-color: #a8a8a8;
+    background-color: #4435b2;
 }
 
 main .cartao-marvel.informacoes {
@@ -113,11 +117,11 @@ main .cartao-marvel .tipo {
 }
 
 .nome {
-    background-color: #7ac74c;
+    background-color: #ec1a22;
 }
 
 .sobrenome {
-    background-color: #df67ddfb;
+    background-color: #ec1a22;
 }
 
 main .descricao {
